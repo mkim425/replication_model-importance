@@ -1,0 +1,14 @@
+# A tibble: 10 × 6
+   model            `-WIS` `Phi^{lasomo}` `Phi^{lomo}` Number of prediction…¹ `Submission rate (%)`
+   <chr>             <dbl>          <dbl>        <dbl>                  <int>                 <dbl>
+ 1 BPagano-RtDriven  -40.2           2.81         0.71                  21800                 100  
+ 2 Karlen-pypm       -41.2           3.11         0.92                  20400                  93.6
+ 3 GT-DeepCOVID      -42.8           1.87         0.17                  20724                  95.1
+ 4 MOBS-GLEAM_COVID  -45.8           1.06        -0.21                  20596                  94.5
+ 5 CU-select         -47.3           1.64         0.24                  21000                  96.3
+ 6 RobertWalraven-…  -49.8           0.94        -0.09                  19992                  91.7
+ 7 USC-SI_kJalpha    -51.7           1.23         0.21                  20900                  95.9
+ 8 COVIDhub-baseli…  -52.1           0.1         -0.62                  21800                 100  
+ 9 UCSD_NEU-DeepGL…  -52.6          -0.13        -0.7                   20596                  94.5
+10 PSI-DRAFT         -71.7          -1.94        -1                     19988                  91.7
+# ℹ abbreviated name: ¹​`Number of predictions`
