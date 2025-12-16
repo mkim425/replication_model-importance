@@ -28,13 +28,13 @@ The repository is organized as follows:
     across forecast dates for each horizon per alogorithm (LOMO and
     LASOMO).
 - `Rcode/`: R scripts to generate figures and tables in the manuscript.
-  - `main-figure_[xx]_*.R`: R scripts to generate figures in the main
+  - `main-figure_[x]_*.R`: R scripts to generate figures in the main
     text of the manuscript.
-  - `main-table_[xx]_*.R`: R scripts to generate tables in the main text
+  - `main-table_[x]_*.R`: R scripts to generate tables in the main text
     of the manuscript.
-  - `supp-figure_[xx]_*.R`: R scripts to generate figures in the
+  - `supp-figure_[x]_*.R`: R scripts to generate figures in the
     supplementary material.
-  - `supp-table_[xx]_*.R`: R scripts to generate tables in the
+  - `supp-table_[x]_*.R`: R scripts to generate tables in the
     supplementary material.
 - `plots/`: Generated figures saved as PDF files (`.pdf`).
 - `tables/`: Generated tables saved as text files (`.txt`).
@@ -110,10 +110,10 @@ settings.*
 #### 2. Use of `modelimportance` package
 
 Additional supplementary analyses were performed using the
-`modelimportance` package, developed by the authors to support use by
-external collaborators across a variety of scenarios. The package is
-planned for submission to CRAN.
+[`modelimportance`](https://github.com/mkim425/modelimportance) package,
+developed by the authors to support use by external collaborators across
+a variety of scenarios. The package is planned for submission to CRAN.
 
 ------------------------------------------------------------------------
 
-README prepared on December 13, 2025.
+README prepared on December 15, 2025.
